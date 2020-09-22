@@ -106,6 +106,7 @@ export default class SettingScreen extends Component{
               multiline = {true}
               onChangeText={(text)=>{
                 this.setState({
+                  
                   address: text
                 })
               }}
